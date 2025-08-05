@@ -11,3 +11,16 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+## Test Local:
+```shell
+npx hardhat node
+```
+Open new tab and run: 
+```shell
+npx hardhat run scripts/deploy.js --network localhost
+```
+Test Smart Contract:
+```shell
+npx hardhat test
+```
