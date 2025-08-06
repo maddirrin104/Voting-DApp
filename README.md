@@ -1,4 +1,4 @@
-# Sample Hardhat Project
+# Voting-Mini-DApp
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
 
@@ -12,7 +12,7 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
 
-## Test Local:
+## Test on Local:
 ```shell
 npx hardhat node
 ```
